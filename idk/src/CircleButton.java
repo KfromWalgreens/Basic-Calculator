@@ -27,7 +27,7 @@ public class CircleButton extends StackPane {
         circle = new Circle(30);
         circle.setFill(Color.WHITE);
         butt = new Button();
-        butt.setStyle("-fx-border-color: transparent;-fx-background-color: transparent;");
+        butt.setStyle("-fx-border-color: transparent;-fx-background-color: transparent; ");
         butt.setPrefSize(30,30);
         this.getChildren().add(circle);
         this.getChildren().add(butt);
